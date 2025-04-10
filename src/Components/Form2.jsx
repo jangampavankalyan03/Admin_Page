@@ -69,7 +69,7 @@ export default function Form2() {
     };
 
     try {
-      const response = await fetch("/api/movies/", {
+      const response = await fetch("/movies/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
