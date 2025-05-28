@@ -90,15 +90,17 @@ export default function Form2() {
 
   return (
     <form
-      className="bg-gray-200 flex flex-col items-center justify-center h-auto rounded-xl"
+      className="bg-gray-200 border-indigo-500 flex flex-col items-center justify-center h-auto rounded-xl"
       onSubmit={handleSubmit}
     >
       <h1 className="font-bold">Admin Form</h1>
-      <div className="p-5 w-100">
+      <div className="p-5 w-100 ">
         <Title ref={title} />
         <Sub_Title ref={subtitle} />
         <Duration ref={duration} />
         <Release_Date ref={releasedate} />
+      </div>
+      <div className="p-5 w-300 ">
         <Genre ref={genre} />
         <Languages ref={languages} />
         <Formats ref={formats} />

@@ -12,7 +12,7 @@ export default function Languages({ ref }) {
     />
   ));
   return (
-    <fieldset className="flex p-1 w-90 gap-5 flex-wrap">
+    <fieldset className="flex p-1 w-300 gap-5 flex-wrap">
       <legend className="fieldset-legend font-bold">Languages</legend>
       {language}
     </fieldset>

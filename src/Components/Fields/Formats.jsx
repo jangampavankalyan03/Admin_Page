@@ -13,7 +13,7 @@ export default function Formats({ ref }) {
     />
   ));
   return (
-    <fieldset className="flex p-1 w-90 gap-5 flex-wrap">
+    <fieldset className="flex p-1 w-300 gap-5 flex-wrap">
       <legend className="fieldset-legend font-bold">Format</legend>
       {format}
     </fieldset>
